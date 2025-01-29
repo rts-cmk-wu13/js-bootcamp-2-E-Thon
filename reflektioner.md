@@ -1,4 +1,5 @@
-## Niveau 1 - Opgave 01
+## Niveau 1 - Opgave 01 
+---
 Jeg syntes det gik rigtig godt. I starten kunne jeg ikke lige se, hvordan jeg skulle løse opgaven, når det ikke var tilladt at lave en if-sætning, der spørger på selve farvekoden, men så kom jeg i tanke om, at jeg jo bare kunne have en boolean variabel, som skiftede mellem true og false, når jeg trykkede på knappen (tak fordi du vidste, hvad der på ville komme til at ske inde i mit hoved).
 
 
@@ -15,6 +16,7 @@ Med hjælp fra dig, forstod jeg hvordan jeg skulle få fat i elementet ved brug 
 
 
 ## Niveau 2 - Opgave 01
+Jeg havde problemer med at huske, hvordan forEach skulle laves, når der skulle puttes eventlistener. Til at starte med kunne jeg ikke finde ud af, hvordan jeg skal fjerne farven fra knapperne, men det var nemt at få den til at lyse op. Jeg fandt ud af det, ved hjælp af internettet, men ikke selv. 
 
 
 ## Niveau 2 - Opgave 02
