@@ -1,7 +1,8 @@
 function add(x,y){
     let result = x + y;
+    return result;
 }
 
-add(2.3);
+let outerResult = add(2,3);
 
-console.log(result);
+console.log(outerResult);
