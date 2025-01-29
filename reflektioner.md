@@ -11,6 +11,8 @@ I ekstra opgaven var det svært at finde ud af, hvordan man får den til at retu
 ## Niveau 1 - Opgave 03
 Jeg forstod overhovedet ikke, hvad der blev ment med "Den skal lede efter et element vha. den modtagede cssSelector.", og jeg kunne derfor ikke komme videre med opgaven. 
 
+Med hjælp fra dig, forstod jeg hvordan jeg skulle få fat i elementet ved brug af parameteren, men jeg kunne slet ikke tænke mig til, hvordan jeg skulle omforme tekst til kode.
+
 
 ## Niveau 2 - Opgave 01
 
