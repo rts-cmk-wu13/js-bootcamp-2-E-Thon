@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +11,22 @@
 <body>
 	<h1>Småopgaver 02 (Niveau 2)</h1>
 
-	<div id="buttons">
-		<button>A</button>
-		<button>B</button>
-		<button>C</button>
-		<button>D</button>
-	</div>
+	<section class="Products">
+		<article class="products__product">
+			<h2 class="products__header">Navn1</h2>
+			<img src="https://placehold.co/300x400/transparent/FDF" alt="Billede1" class="products__img">
+			<p class="products__price">Pris1</p>
+			<div class="products__amount">
+				<button type="button" class="products__subtract">-</button>
+				<div id="products__amount" title="Antal">0</div>
+				<button type="button" class="products__add">+</button>
+			</div>
+		</article>
 
-	<script src="js/index.js"></script>
+		<div class="products__product"></div>
+
+		<div class="products__product"></div>
+	</section>
+
 </body>
 </html>
