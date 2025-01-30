@@ -11,14 +11,12 @@ h1{
 
 /* ---------------- SECTION ---------------- */
 .products{
-    width: 80vw;
+    width: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     justify-content: space-between;
-    width: 100%;
     margin: 0 auto;
-    row-gap: 2rem;
-    column-gap: 2rem;
+    gap: 2rem;
 }
 .products__header2{
     grid-area: 1 / 1 / 2 / -1;
@@ -55,8 +53,9 @@ h1{
 .products__subtract, .products__add{
     padding: .2rem;
     font-weight: 900;
+    cursor: pointer;
 }
-.products__subtract, .products__add, #products__amount{
+.products__subtract, .products__add, .products__amount{
     width: 2rem;
     height: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -64,7 +63,7 @@ h1{
     background-color: white;
     border-radius: 5px;
 }
-#products__amount{
+.products__amount{
     display: flex;
     align-items: center;
     justify-content: center;
