@@ -18,7 +18,6 @@ function addToCounter(e) {
   amounts.innerHTML = count;
 
   enableDisable(e);
-  activeClass(e);
 }
 
 function subtractFromCounter(e) {
@@ -32,7 +31,6 @@ function subtractFromCounter(e) {
   }
 
   enableDisable(e);
-  activeClass(e);
 }
 
 function enableDisable(e) {
@@ -47,9 +45,23 @@ function enableDisable(e) {
 
   if (count > 0) {
     subtractBtn.removeAttribute("disabled");
-    subtractBtn.style.color = "black"; /
+    subtractBtn.style.color = "black"; 
   } else {
     subtractBtn.setAttribute("disabled", true); 
     subtractBtn.style.color = "transparent";
   }
+}
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(function (btn) {
+  btn.addEventListener("click", activeClass);
+});
+
+function activeClass(e) {
+    e.target.classList.add("products__button--active");
+
+    setTimeout(function() {
+        e.target.classList.remove("products__button--active");
+      }, 300); // setTimeout tæller i millisekunder (her er det 300 millisekunder = 0.3 sek)
 }
