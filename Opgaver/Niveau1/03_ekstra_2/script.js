@@ -1,14 +1,14 @@
 //! Hide via element:
 function skjulElement(element) {
-  if (element != null)
-    element.style.display = "none";
+  if (element != null) element.style.display = "none";
 }
-
 
 //! Hide via css selector:
-function skjulElementViaCssSelector(cssSelector) {
-  let selector = document.querySelector(cssSelector);
-  if (selector) skjulElement(selector);
+function skjulElementerViaCssSelector(cssSelector) {
+  let selectors = document.querySelectorAll(cssSelector);
+  selectors.forEach(function (selector) {
+    skjulElement(selector);
+  });
 }
 
-skjulElementViaCssSelector(".placeholder__img");
+skjulElementerViaCssSelector(".placeholder__img img");

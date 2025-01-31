@@ -1,5 +1,5 @@
+
 ## Niveau 1 - Opgave 01 
----
 Jeg syntes det gik rigtig godt. I starten kunne jeg ikke lige se, hvordan jeg skulle løse opgaven, når det ikke var tilladt at lave en if-sætning, der spørger på selve farvekoden, men så kom jeg i tanke om, at jeg jo bare kunne have en boolean variabel, som skiftede mellem true og false, når jeg trykkede på knappen (tak fordi du vidste, hvad der på ville komme til at ske inde i mit hoved).
 
 
@@ -13,6 +13,13 @@ I ekstra opgaven var det svært at finde ud af, hvordan man får den til at retu
 Jeg forstod overhovedet ikke, hvad der blev ment med "Den skal lede efter et element vha. den modtagede cssSelector.", og jeg kunne derfor ikke komme videre med opgaven. 
 
 Med hjælp fra dig, forstod jeg hvordan jeg skulle få fat i elementet ved brug af parameteren, men jeg kunne slet ikke tænke mig til, hvordan jeg skulle omforme tekst til kode.
+
+> ### Ekstraopgave 1
+> Det var lidt svært at forstå, hvad der blev ment i teksten, men jeg kunne næsten lave den selv, men havde lidt svært ved at finde ud af, hvilket parameter der skulle benyttes, når den "nye" funktion blev kaldt indeni den "gamle" funktion. 
+
+
+> ### Ekstraopgave 2
+> Jeg forstod slet ikke opgavebeskrivelsen, og begyndte derfor at tro, at funktionen skulle afhænge af to parametre og tænkte som udgangspunkt ikke over, at dette "bare" var en forEach som kunne benyttes. 
 
 
 ## Niveau 2 - Opgave 01
