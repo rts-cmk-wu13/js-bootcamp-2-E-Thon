@@ -1,5 +1,4 @@
-//? husk, at Carstens HTML ser anderledes ud
-
+//! One card:
 let increaseBtn = document.querySelector(".card__increase");
 let decreaseBtn = document.querySelector(".card__decrease");
 let countElm = document.querySelector(".card__item-count");
@@ -19,7 +18,7 @@ increaseBtn.addEventListener("click", function () {
   updateCountAndPrice(count, price);
 });
 
-decreaseBtnBtn.addEventListener("click", function () {
+decreaseBtn.addEventListener("click", function () {
   if (count > 0) count--;
   updateCountAndPrice(count, price);
 });
