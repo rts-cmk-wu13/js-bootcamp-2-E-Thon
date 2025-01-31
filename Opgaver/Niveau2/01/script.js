@@ -1,6 +1,4 @@
 const buttons = document.querySelectorAll("#buttons button");
-console.log(buttons);
-let index = 1;
 
 buttons.forEach(function (btn) {
   btn.addEventListener("click", btnLight);
@@ -15,3 +13,29 @@ function btnLight() {
   // gul farve tilføjes knappen der trykkes på
   this.style.backgroundColor = "#ff6d";
 }
+
+// anden løsning, hvor this ikke bruges:
+//
+//buttons.forEach(function (btn) {
+//   btn.addEventListener("click", function(){btnLight()
+//   });
+// });
+//
+// function btnLight(clickedElement) {
+//   buttons.forEach(function (btn) {
+//     btn.style.backgroundColor = "#eee";
+//   });
+//   clickedElement.style.backgroundColor = "#ff6d";
+// }
+
+
+
+// Carstens løsningsforslag fra gennemgang:'
+// let buttons = document.querySelectorAll("#buttons button");
+// buttons.forEach(function (button) {
+//   button.addEventListener("click", function () {
+//            button.style.backgroundColor = "#eee";
+//  })
+//    button.style.backgroundColor = "#ff6d";
+// });
+
