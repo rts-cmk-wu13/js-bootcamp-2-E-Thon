@@ -14,6 +14,20 @@ function btnLight() {
   this.style.backgroundColor = "#ff6d";
 }
 
+// anden løsning, hvor this ikke bruges:
+//
+//buttons.forEach(function (btn) {
+//   btn.addEventListener("click", function(){btnLight()
+//   });
+// });
+//
+// function btnLight(clickedElement) {
+//   buttons.forEach(function (btn) {
+//     btn.style.backgroundColor = "#eee";
+//   });
+//   clickedElement.style.backgroundColor = "#ff6d";
+// }
+
 
 
 // Carstens løsningsforslag fra gennemgang:'
